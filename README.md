@@ -23,9 +23,23 @@ Certainly! Below are step-by-step instructions for installing your this project 
 4. **Copy Project Files:**
    - Copy all PHP files and other project assets into the `hotelpms` folder.
 
-5. **Access Your Project:**
-   - Open your web browser and go to `http://localhost/hotelpms` to view your project.
 
+5. **Set Up the Database:**
+   - Open your web browser and go to `http://localhost/phpmyadmin`.
+   - Click on the "New" button to create a new database.
+   - Enter a name for your database (e.g., `hotelpms_database`) and click "Create".
+
+6. **Import SQL Database:**
+   - In phpMyAdmin, select the newly created database.
+   - Go to the "Import" tab.
+   - Click on "Choose File" and import the SQL file "hotel_pms.sql" you will find the file inside the "database_sql" folder
+     in the project files.
+   - Click "Go" to import the database structure and data.
+
+7. **Access Your Project:**
+   - Open your web browser and go to `http://localhost/my_project` to view your project.
+
+ 
 ### Web Hosting Server
 
 1. **Access Your Web Hosting Account:**
